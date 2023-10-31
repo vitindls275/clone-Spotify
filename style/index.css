@@ -1,84 +1,117 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* FIM FONTS */
 
+
+/* PAGINA */
 *{
     margin: 0%;
     padding: 0%;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
+
 #pagina{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, #3c096c 30%, #06069b 70%); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #202020;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-    
+/* FIM PAGINA */
 
-main{
-    width: 70%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+/* HEADER */
 
-#logImg{
-    width: 50%;
-    height: 100%;
-    background-image: url(../assets/image/bacground.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
- 
-
-#logIn{
-    width: 65%;
-    height: 100%;
-    box-shadow: 0px 0px 20px;
-    background-color: aliceblue;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    
-
-} 
-
-header{
+#headerLogo{
     width: 100%;
-    height: 60px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#spotifyLogo{
+    width: 150px;
+    height: 48px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+#spotifyLogo img{
+    width: 100%;
+    width: 100%;
+}
+/* FIM HEADER */
+
+/* MAIN */
+main{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h1{
-    font-size: 35px;
-    font-weight: 800;
+#headerUp h1{
+    font-size: 48px;
+    font-weight: 1500;
+
 }
 
-#mainLog{
-    width: 90%;
-    height: 390px;
-    margin: 130px 0px;
-    /* background-color: black; */
+
+.singUp{
+    width: 330px;
+    height: 80vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(12, 133, 238);
     flex-direction: column;
-    gap: 15px;
 }
 
-input{
-    width: 65%;
-    height: 35px;
-    border: none;
-    
-    box-shadow: 0px 2px 4px; 
-    border-radius: 5px;
-    margin: 0px 0px;
+.mainUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.labelUp{
+    margin-top: 30px;
+    padding: 3px 0px;
+}
+
+.inputUp{
+    width: 329px;
+    padding: 3px 0px;
+}
+
+.inputUp label{
+    font-weight: 900;
+}
+.inputUp input{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #202020;
+    border: 1px solid #6a6a6a;
+}
+
+.inputUp ::placeholder{
+    padding: 0px 10px;
+}
+/* FIM MAIN */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: end;
+}
+
+footer span{
+    font-size: 0.6875rem;
+    color:#6a6a6a ;
+    font-weight: bolder;
+}
+/* FIM FOOTER */
 
