@@ -21,25 +21,25 @@
 
 /* HEADER */
 
-#headerLogo{
+.headerLogo{
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
 }
 
-#spotifyLogo{
+.spotifyLogo{
     width: 150px;
     height: 48px;
     padding: 8px;
     overflow: hidden;
 }
 
-#spotifyLogo :hover{
+.spotifyLogo :hover{
     cursor: pointer;
 }
 
-#spotifyLogo img{
+.spotifyLogo img{
     width: 100%;
     width: 100%;
 }
@@ -64,7 +64,7 @@
 }
 
 .inputUp{
-    width: 329px;
+    width: 330px;
     padding: 3px 0px;
 }
 
@@ -74,7 +74,7 @@
 
 }
 .inputUp input{
-    width: 100%;
+    width: 330px;
     height: 45px;
     border-radius: 4px;
     background-color: #131515;
@@ -86,8 +86,8 @@
 }
 
 .button{
-    width: 100%;
-    height: 100%;
+    width: 330px;
+    height: 45px;
     background-color: #117a37;
     filter: brightness(1.5);
     border-radius: 50px;
@@ -105,15 +105,17 @@
 /* FIM MAIN */
 
 /* FOOTER */
-#footerEnd{
+.footerEnd{
     width: 100%;
     margin: 0px 0px 30px 0px ;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    bottom: 0px;
 }
 
-#footerEnd span{
+.footerEnd span{
     font-size: 0.6875rem;
     color:#6a6a6a ;
     font-weight: bolder;

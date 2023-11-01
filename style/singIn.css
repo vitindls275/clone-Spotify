@@ -1,0 +1,109 @@
+.mainSingUp,main,.lodingBar,.singUp,.headerBar1{
+    display: flex;
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+}
+
+.mainSingUp{
+    width: 100%;
+    justify-content: center;
+}
+
+.singUp{
+    width: 436px;
+    height: 336px;
+    color: white;
+}
+
+.mainLb{
+    justify-items: center;
+    flex-direction: column;
+}
+
+.headerBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 1px;
+}
+
+.headerBar1{
+    width: 100%;
+    height: 79px;
+    flex-direction: column;
+}
+
+.lodingBar{
+    width: 77%;
+    height: 2px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #6a6a6a;
+    border-radius: 2px;
+}
+
+.lodingBar1{
+    width: 33%;
+    height: 2px;
+    background-color: #117a37;
+    filter: brightness(2);
+    border-radius: 1px;
+
+}
+
+/* .lodingBar2{
+    width: 33%;
+    height: 1px;
+    background-color: white;
+    border-radius: 1px;
+
+}
+
+.lodingBar3{
+    width: 33%;
+    height: 1px;
+    background-color: white;
+    border-radius: 1px;
+
+} */
+
+
+.svgButton{
+    width: 24px;
+    height: 24px; 
+    background-color: #131515;
+}
+
+.etapa{
+    padding-top: 16px;
+    margin: 0px 0px 0px 53px;
+}
+
+.etapa2{
+    margin: 7px 0px 30px 53px ;
+}
+
+.labelPassword{
+    margin: 0px 0px 7px 53px;
+    display: flex;
+}
+
+.InpuT{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputSenha input{
+    width: 330px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #131515;
+    border: 1px solid #6a6a6a;
+}
+.inputSenha ::placeholder{
+    padding: 0px 10px;
+}

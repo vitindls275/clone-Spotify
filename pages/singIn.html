@@ -1,29 +1,67 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style/geralSinIg.css">
+        <link rel="stylesheet" href="../style/singIn.css">
         <link rel="shortcut icon" href="../assets/svg/spotify-162-svgrepo-com (1).svg" type="image/x-icon">
-        <title>Spotify</title>
+        <title>Inscreva-se - Spotify</title>
     </head>
     <body>
         <div id="pagina">
-            <header id="headerLogo">
-                <img id="spotifyLogo" src="../assets/svg/Spotify-Black-Logo.wine.svg" alt="">
+            <header class="headerLogo">
+                <img class="spotifyLogo" src="../assets/svg/Spotify-Black-Logo.wine.svg" alt="">
             </header>
-            <main>
-                <div id="lodingBar">
+            <main class="mainSingUp">
 
-                </div>
-                <section>
+                <form method="post" class="singUp">
 
-                </section>
-                <!-- <footer>
-                    <span>This site is protected by reCAPTCHA and the Google</span> 
-                    <span>Privacy Policy and Terms of Service apply.</span>
-                </footer> -->
-            </main>
+                    <header class="headerBar">
+                        <div class="lodingBar1">
+
+                        </div>
+                        <div class="lodingBar">
+
+                        </div>
+                        <div class="lodingBar2">
+
+                        </div>
+                        <div class="lodingBar3">
+                            
+                        </div>
+                    </header>
+
+                    <header class="headerBar1">
+                        <!-- <button class="svgButton">
+                            <img src="" alt="">
+                        </button> -->
+
+                        <span class="etapa">Etapa 1 de 3 </span> 
+                        <span class="etapa2">Crie uma senha</span>
+                    </header>  
+
+                    <section class="labelPassword">
+                        <label for="senha">Senha</label>
+                    </section>
+
+                    <main class="InpuT">   
+                        <section class="inputSenha">
+                            <input type="password" id="senha" class="inputUp" required>
+                        </section>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate suscipit rerum voluptatem fugit. Quis possimus, laudantium esse ab aperiam facere nam ut dolores velit nisi minus aliquam ex exercitationem maxime.</span>
+                    </main>
+                    <button class="button"> Avançar</button>
+
+                    
+
+                </form>
+
+            </main>    
+       <!-- <footer>
+                <span>This site is protected by reCAPTCHA and the Google</span> 
+                <span>Privacy Policy and Terms of Service apply.</span>
+            </footer> -->
         </div>
     </body>
 </html>
