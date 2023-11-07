@@ -1,8 +1,8 @@
-/* FONTS */
+/* ---------------FONTS--------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* FIM FONTS */
+/* ---------------FIM FONTS--------------- */
 
-/* PAGINA */
+/* ---------------PAGINA--------------- */
 *{
     margin: 0%;
     padding: 0%;
@@ -17,9 +17,12 @@
     overflow-x: hidden;
     /* overflow-y: hidden; */
 }
-/* FIM PAGINA */
+/* ---------------FIM PAGINA--------------- */
 
-/* HEADER */
+/* ---------------HEADER--------------- */
+main,.singUp,.mainUp,#division,#loginAlternative,.AtalhoLogIn,#footerUp,#footerEnd{
+    display: flex;
+}
 
 .headerLogo{
     width: 100%;
@@ -43,9 +46,9 @@
     width: 100%;
     width: 100%;
 }
-/* FIM HEADER */
+/* ---------------FIM HEADER--------------- */
 
-/* MAIN */
+/* ---------------MAIN--------------- */
 .singUp{
     width: 330px;
     height: auto;
@@ -53,8 +56,10 @@
 }
 
 .mainUp{
-    justify-content: center;
+    display: flex;
+    height: 80vh;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -64,8 +69,7 @@
 }
 
 .inputUp{
-    width: 330px;
-    padding: 3px 0px;
+    width: 320px;
 }
 
 .inputUp label{
@@ -74,19 +78,16 @@
 
 }
 .inputUp input{
-    width: 330px;
+    width: 310px;
     height: 45px;
+    padding: 0px 10px;
     border-radius: 4px;
     background-color: #131515;
     border: 1px solid #6a6a6a;
 }
 
-.inputUp ::placeholder{
-    padding: 0px 10px;
-}
-
 .button{
-    width: 330px;
+    width: 320px;
     height: 45px;
     background-color: #117a37;
     filter: brightness(1.5);
@@ -101,17 +102,45 @@
 .button h2{
     color: #131515;
     font-size: 17px;
+    font-weight: 1500;
 }
-/* FIM MAIN */
+
+.button a{
+    text-decoration: none;
+
+}
+
+.headerBar{
+    width: 436px;
+    display: flex;
+    flex-direction: row;
+    height: 1px;
+}
+
+.headerBar1{
+    width: 436px;
+    flex-direction: column;
+}
+
+.lodingBar{
+    width: 77%;
+    height: 2px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #6a6a6a;
+    border-radius: 2px;
+}
+/* ---------------FIM MAIN--------------- */
 
 /* FOOTER */
 .footerEnd{
     width: 100%;
+    height: 30px;
     margin: 0px 0px 30px 0px ;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
     bottom: 0px;
 }
 
@@ -120,4 +149,4 @@
     color:#6a6a6a ;
     font-weight: bolder;
 }
-/* FIM FOOTER */
+/* ---------------FIM FOOTER--------------- */

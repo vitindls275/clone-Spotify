@@ -1,7 +1,4 @@
 /* MAIN */
-main,.singUp,.mainUp,#division,#loginAlternative,.AtalhoLogIn,#footerUp,#footerEnd{
-    display: flex;
-}
 
 main{
     align-items: center;
@@ -15,7 +12,7 @@ main{
 }
 
 #linkUp{
-    margin: 8px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 #linkUp a{
@@ -27,12 +24,12 @@ main{
 #buttonUp{
     width: 330px;
     height: 50px;
-    margin: 8px 0px;
+    margin: 20px 0px 0px;
 }
 
 #division{
     width: 330px;
-    margin-top: 20px;
+    margin-top: 30px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -55,7 +52,7 @@ main{
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin: 32px 0px;
+    margin: 30px 0px;
     flex-direction: column;
 }
 
