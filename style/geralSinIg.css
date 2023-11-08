@@ -93,6 +93,9 @@ main,.singUp,.mainUp,#division,#loginAlternative,.AtalhoLogIn,#footerUp,#footerE
     filter: brightness(1.5);
     border-radius: 50px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button :hover{
@@ -102,10 +105,9 @@ main,.singUp,.mainUp,#division,#loginAlternative,.AtalhoLogIn,#footerUp,#footerE
 .button h2{
     color: #131515;
     font-size: 17px;
-    font-weight: 1500;
 }
 
-.button a{
+ a {
     text-decoration: none;
 
 }

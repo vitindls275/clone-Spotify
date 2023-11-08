@@ -18,7 +18,8 @@ main{
 #linkUp a{
     color: #117a37;
     font-size: 13px;
-    filter: brightness(3)
+    filter: brightness(3);
+    text-decoration: dotted;
 }
 
 #buttonUp{
